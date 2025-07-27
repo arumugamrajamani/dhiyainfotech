@@ -23,20 +23,23 @@ const Header = () => {
         <div className="top-header py-1 px-3 bg-light text-dark small d-none d-lg-block">
           <div className="d-flex justify-content-between align-items-center">
             <div>
-              <i className="fas fa-phone"></i> +91 1234567890
+              <i className="fas fa-phone"></i> +91 96778 94466
               <span className="ms-3">
-                <i className="fas fa-envelope me-2"></i> info@example.com
+                <i className="fas fa-envelope me-2"></i> info@dhiyainfotech.com
               </span>
             </div>
             <div>
-              <a href="#" className="text-dark me-3">
+              <a href="https://www.facebook.com/DHIYAINFOTECHCOMPANY" className="text-dark me-3">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="text-dark me-3">
+              <a href="https://www.linkedin.com/company/dhiya-infotech" className="text-dark me-3">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" className="text-dark">
-                <i className="fab fa-linkedin-in"></i>
+              <a href="https://www.instagram.com/dhiyainfotech" className="text-dark me-3">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="https://youtube.com/%40Dhiya-Infotech" className="text-dark me-3">
+                <i className="fab fa-youtube"></i>
               </a>
             </div>
           </div>

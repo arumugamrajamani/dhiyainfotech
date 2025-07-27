@@ -1,0 +1,18 @@
+.contact-page {
+  background: linear-gradient(to right, #e8f0fe, #ffffff);
+  min-height: 100vh;
+}
+
+.contact-page h2 {
+  color: #0d6efd;
+}
+
+.contact-page .card {
+  border-radius: 12px;
+}
+.contact-page .card-header {
+  background-color: #0d6efd;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 12px 12px 0 0;
+}

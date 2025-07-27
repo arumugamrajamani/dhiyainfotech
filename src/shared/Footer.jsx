@@ -6,9 +6,10 @@ const Footer = () => (
     <Container className="text-center">
       <p>&copy; 2025 Dhiya Infotech. All rights reserved.</p>
       <div>
-        <a href="#" className="text-white me-3"><i className="fab fa-facebook"></i></a>
-        <a href="#" className="text-white me-3"><i className="fab fa-twitter"></i></a>
-        <a href="#" className="text-white"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/DHIYAINFOTECHCOMPANY" className="text-white me-3"><i className="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/dhiya-infotech" className="text-white me-3"><i className="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/dhiyainfotech" className="text-white me-3"><i className="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/%40Dhiya-Infotech" className="text-white me-3"><i className="fab fa-youtube"></i></a>
       </div>
     </Container>
   </footer>

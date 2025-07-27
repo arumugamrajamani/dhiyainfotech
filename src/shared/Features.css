@@ -1,0 +1,46 @@
+.feature-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px 15px;
+  transition: all 0.3s ease;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  background-color: #f5f5f5;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Color borders */
+.border-blue {
+  border-top: 3px solid #35b7f3;
+  border-left: 3px solid #35b7f3;
+}
+.border-yellow {
+  border-top: 3px solid #f3a935;
+  border-left: 3px solid #f3a935;
+}
+.border-green {
+  border-top: 3px solid #4dc37a;
+  border-left: 3px solid #4dc37a;
+}
+.border-pink {
+  border-top: 3px solid #f35ca6;
+  border-left: 3px solid #f35ca6;
+}
+.border-purple {
+  border-top: 3px solid #9e8cfc;
+  border-left: 3px solid #9e8cfc;
+}
