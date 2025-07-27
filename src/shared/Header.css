@@ -1,0 +1,23 @@
+/* src/components/Header.css */
+
+/* Make sure Bootstrap nav-links are white */
+.custom-navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: normal;
+  /* transition: all 0.3s ease; */
+}
+
+/* Hover effect with warning gradient */
+.custom-navbar .nav-link:hover {
+background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  color: #ffffff !important;
+  border-radius: 4px;
+}
+
+/* Active nav link (uses .active class from NavLink) */
+.custom-navbar .nav-link.active {
+background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  border-radius: 4px;
+}
