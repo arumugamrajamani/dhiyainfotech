@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container, Modal, Button, Form } from "react-bootstrap";
 import "./Header.css";
-import logo from "../../public/logo-white.svg"; // Make sure this path is correct
+import logo from "../assets/logo-white.svg"; // Make sure this path is correct
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
